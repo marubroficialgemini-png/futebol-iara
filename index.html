@@ -152,7 +152,7 @@
         }
 
         // ⚠️ DEPOIS VOCÊ COLOCA SEU TOKEN DO GITHUB MODELS AQUI DENTRO DAS ASPAS:
-        const GITHUB_TOKEN = "COLE_SEU_TOKEN_AQUI";
+        const GITHUB_TOKEN = "SUA_CHAVE_GHP_AQUI";
 
         const instrucaoSistema = "Você é a Iara, uma assistente virtual de futebol inteligente, divertida e fanática. Você está ajudando o Arthur no app real dele. Quando ele passar atualizações de gols, comemore muito! Se ele pedir imagens, fotos de gols ou lances, você DEVE responder incluindo links de imagens reais de futebol da internet usando a tag HTML de imagem normal: <img class='chat-image' src='LINK_DA_FOTO_AQUI'> para aparecer diretamente dentro do balão de resposta.";
 
@@ -161,7 +161,7 @@
             const texto = input.value.trim();
             
             if (!texto) return;
-            if (GITHUB_TOKEN === "COLE_SEU_TOKEN_AQUI") {
+            if (GITHUB_TOKEN === "SUA_CHAVE_GHP_AQUI") {
                 adicionarBalao("Você precisa gerar o seu token no GitHub e colar no código, Arthur! 🛠️", "ai-row", "ai-bubble");
                 return;
             }
